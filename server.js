@@ -17,11 +17,11 @@ app.get('/article-one', function (req,res) {
 });
 
 app.get('/article-two', function (req,res) {
-   res.sendFile(path.join(__dirname, 'ui', 'article2.html');
+   res.sendFile(path.join(__dirname, 'ui', 'article2.html'));
 });
 
 app.get('/article-three', function (req,res) {
-   res.sendFile(path.join(__dirname, 'ui', 'article3.html');
+   res.sendFile(path.join(__dirname, 'ui', 'article3.html'));
 });
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
