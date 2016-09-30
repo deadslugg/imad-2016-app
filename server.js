@@ -12,15 +12,15 @@ app.get('/', function (req, res) {
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
-app.get('/article one', function (req,res) {
+app.get('/article-one', function (req,res) {
  res.send('article one requested and will be served');
 });
 
-app.get('/article two', function (req,res) {
+app.get('/article-two', function (req,res) {
  res.send('article two will be send shortly');
 });
 
-app.get('/article three', function (req,res) {
+app.get('/article-three', function (req,res) {
  res.send('article three will be send shortly');
 });
 app.get('/ui/madi.png', function (req, res) {
