@@ -7,7 +7,7 @@ app.use(morgan('combined'));
 
 
 app.get('/', function (req, res) {
-  res.send(createtemplate(articleone));
+  res.sendFile(path.join(__dirname, 'ui', 'article1.html'));
 });
 
 app.get('/ui/style.css', function (req, res) {
