@@ -67,14 +67,14 @@ var htmltemplate =`
 }
 
 app.get('/', function (req, res) {
-  res.send(createTemplate(articleone));
+  res.sendfile(path.join(_dirname,'ui','index.html'));
 });
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 app.get('/article-one', function (req,res) {
-  res.sendFile(path.join(__dirname, 'ui', 'article1.html'));
+   res.send(createTemplate(articleone));
 });
 
 app.get('/article-two', function (req,res) {
