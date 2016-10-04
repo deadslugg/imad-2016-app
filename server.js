@@ -37,7 +37,7 @@ This is the content.view more.This is the content.view more.
 This is the content.view more.This is the content.view more.
 This is the content.view more.This is the content.view more.          
 </p> `},
-'article-three ': {    title:'Article three | Sreejith',
+'article-three' : {    title:'Article three | Sreejith',
     heading:'Article three',
     date:'oct 1',
     content:`<p>
